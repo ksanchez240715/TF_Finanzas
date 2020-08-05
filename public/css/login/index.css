@@ -1,0 +1,44 @@
+.form-control{
+    color: #ffffff;
+    background: #ffffff;
+    border: 1.5px solid #2e5688 !important;
+}
+
+#m_login_signin_submit,#m_login_forget_password_submit,#m_login_forget_password_cancel{
+    /*border-color: #2e5688;*/
+    border-color: #eda335;
+    background-color: #eda335;
+    color: #ffffff;
+}
+
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .form-control::placeholder{
+    color: #2e5688 !important;
+}
+
+.btn-focus.m-btn--air,.btn-focus.m-btn--air:hover{
+    box-shadow: none !important;
+}
+.m-input{
+    color: #2e5688 !important;
+    /*background: transparent !important;*/
+    background: #ffffffa8 !important;
+}
+
+label,a{
+    color: #2e5688 !important;
+}
+a:hover{
+    color: #c75862 !important;
+}
+
+.m-checkbox.m-checkbox--light>span{
+    border: 1px solid #2e5688;
+}
+.m-checkbox.m-checkbox--light>input:checked~span{
+    border: 1px solid #2e5688;
+}
+.m-checkbox.m-checkbox--light>span:after{border:solid #c75862}
+
+h1,h2,h3,h4,.m-login__desc{
+    color: #2e5688 !important;
+}

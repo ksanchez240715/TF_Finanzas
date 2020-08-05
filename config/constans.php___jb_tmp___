@@ -1,0 +1,56 @@
+<?php
+
+return [
+    'YOUR-API-KEY' => 'AfD8EYBIYMLn5PFR',
+    'YOUR-API-SECRET' => 'Ja1IVozt93tdrxUU3f3eH065TznKGF6u',
+    'GENERAL' => [
+        'ENTIDAD' => 4,
+        'TEMA' => 4
+    ],
+    'TEMAS' => [
+        1 => 'enchufate',
+        2 => 'unap-iquitos',
+        3 => 'akdemic',
+        4 => 'unica',
+        5 => 'unfv',
+        6 => 'upal',
+        7 => 'undac',
+        8 => 'unheval',
+    ],
+    'ENTIDAD' =>[
+        1 => 'ENCHUFATE',
+        2 => 'UNAP',
+        3 => 'AKDEMIC',
+        4 => 'UNICA',
+        5 => 'UNFV',
+        6 => 'UPAL',
+        7 => 'UNDAC',
+        8 => 'UNHEVAL'
+    ],
+    'NOMBRE_INSTITUCION' =>[
+        1 => 'Enchufate S.A.C.',
+        2 => 'Universidad Nacional De La Amazonia Peruana',
+        3 => 'Akdemic Sistema Integrado de Educación',
+        4 => 'Universidad Nacional "San Luis Gonzaga"',
+        5 => 'Universidad Nacional Federico Villarreal',
+        6 => 'Universidad Privada Peruano Alemana',
+        7 => 'Universidad Nacional Alcides Carrión',
+        8 => 'Universidad Nacional Hermilio Valdizan'
+    ],
+    'ESTADO_ANALISIS' => [
+        'PENDIENTE' => 1,
+        'APROBADO' => 2,
+        'DESAPROBADO' => 3,
+        'SIN_CALIFICACION' => 4
+    ],
+    'ROLES' => [
+        'ALUMNO' => 'Alumno',
+        'PROFESOR' => 'Profesor',
+        'ADMINISTRADOR' => 'Administrador',
+        'COORDINADORICI' => 'CoordinadorICI',
+        'ASCESOR' => 'Ascesor',
+        'DIRECTORICI' => 'DirectorICI',
+        'DECANO' => 'Decano',
+    ],
+    'TIPO_ANALISIS_ADMINISTRATIVO' => 1
+];
